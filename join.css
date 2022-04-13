@@ -1,0 +1,143 @@
+.join-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+.join-text {
+    font-size: 3.5em;
+    font-weight: 100;
+    margin: 0;
+    margin-right: 75px;
+    margin-left: 35px;   
+}
+.join-form {
+    background-color: #202027;
+    width: 500px;
+    max-width: 500px;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+.input-group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-group:last-child {
+    margin-bottom: 0;
+}
+.input-group label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.input-group input {
+    outline: none;
+    background: none;
+    border: 1px solid #2E3852;
+    font-size: 1em;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+.input-group .btn {
+    border: 1px solid #2E3852;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 30px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 1050px){
+  .join-text {
+    font-size: 3em;
+    font-weight: 100;
+    margin: 0;
+    margin-right: 55px;
+    margin-left: 15px;   
+}  
+}
+
+@media screen and (max-width: 890px){
+  .join-text {
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+}
+  .join-form {
+    width: 450px;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .join-main-section {
+    display: block;
+    margin-top: 0px;
+}
+    .input-group .btn {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 700px){
+  .join-text {
+    font-size: 2rem;
+    margin-top: 15%;
+}
+  .join-form {
+    width: 400px;
+    padding: 0.7rem 3rem;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .input-group {
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+    .input-group input {
+    outline: none;
+    background: none;
+    border: 1px solid #2E3852;
+    font-size: 0.8em;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+    .input-group .btn {
+    font-size: 0.8em;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+    .input-group label {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: .5rem;
+    margin: 5px;
+}
+    .home-page-circle-1 {
+  width: 50vw;
+  height: 50vw;
+}
+
+    .home-page-circle-2 {
+  width: 50vw;
+  height: 50vw;
+}
+
+    .home-page-circle-3 {
+  width: 70vw;
+  height: 70vw;
+}
+    .join-main-section {
+    margin-top: 0%;
+}
+}

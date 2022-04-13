@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #247985;
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  min-height: 100vh;
+}
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+.brand-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.25em;
+  color: white;
+  text-decoration: none;
+}
+.brand-logo-name {
+  margin-left: 1rem;
+}
+.main-nav ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-nav a{
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+.main-nav a:hover{
+  color: #adadad;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header {
+  height: 120px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.discover-main-section {
+  display: flex;
+  margin-top: 10%;
+}
+.discover-main-section .covers-image {
+    width: 350px;
+    margin-left: 3rem;
+    height: auto;
+    max-width: 350px;
+    margin-top: 20px;
+}
+.icon-section {
+    display: flex;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding: 1em;
+    width: 100px;
+    height: 100px;
+    background-color: #202027;
+    margin-bottom: 3rem;
+}
+.icon img {
+    width: 40px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    font-size: 22px;
+    margin: 0;
+}
+.title {
+  font-weight: 100;
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+.accent-text {
+    color: #000000;
+}
+.home-page-circle-1 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-color: rgb(188, 58, 128, .1);
+  bottom: 5vw;
+  left: 5vw;
+  z-index: -1;
+}
+.home-page-circle-2 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-color: rgb(52, 87, 178, .1);
+  top: 15vh;
+  left: 30vw;
+  z-index: -1;
+}
+.home-page-circle-3 {
+  position: absolute;
+  overflow: hidden;
+  width: 45vw;
+  height: 45vw;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.home-page-circle-3::before {
+  content: '';
+  transform: translate(40%, 40%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgb(52, 87, 178, .1);
+}
+@media screen and (max-width: 1060px){
+    .title {
+        font-size: 2.5em;
+        margin-bottom: 1rem;
+}    
+    .icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+}
+    .icon img {
+        width: 40px;
+}
+    .text{
+        font-size: 20px;
+}
+    .discover-main-section .covers-image {
+        width: 290px;
+        margin-left: 2rem;
+        height: auto;
+        margin-top: 20px;
+} 
+    a{
+        text-align: center;
+}
+}
+
+@media screen and (max-width: 880px){
+    .covers-image {
+        display: none;
+}
+    .title {
+        font-size: 3.8em;
+        margin-bottom: 1rem;
+}
+    .icon {
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+        height: 110px;
+        margin-bottom: 2rem;
+}
+    .icon img {
+        width: 50px;
+}
+    a{
+        text-align: center;
+}
+    .text{
+        text-align: center;
+}
+}
+
+@media screen and (max-width: 810px){
+    .title {
+        font-size: 3em;
+        text-align: center;
+}    
+    .discover-main-section {
+        margin-top: 15%;
+}
+    .icon {
+        width: 110px;
+        height: 110px;
+}
+    .icon img {
+        width: 50px;
+}
+    a{
+        text-align: center;
+}
+    .text{
+        font-size: 20px;
+        text-align: center;
+}
+.home-page-circle-1 {
+  width: 40vw;
+  height: 40vw;
+}
+
+    .home-page-circle-2 {
+  width: 40vw;
+  height: 40vw;
+}
+
+    .home-page-circle-3 {
+  width: 70vw;
+  height: 70vw;
+}
+}
+
+@media screen and (max-width: 660px){
+    .title {
+        font-size: 2.1em;
+        margin-bottom: 1rem;
+        text-align: center;
+}
+    .discover-main-section {
+        margin-top: 25%;
+}
+    .text{
+        font-size: 20px;
+        text-align: center;
+}
+    .brand-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+    .main-nav ul{
+  display: none;
+}
+    .main-header {
+  height: 100px;
+}
+    .icon {
+        width: 90px;
+        height: 100px;
+}
+    .icon img {
+        width: 40px;
+}
+    .home-page-circle-1 {
+  width: 50vw;
+  height: 50vw;
+}
+
+    .home-page-circle-2 {
+  width: 50vw;
+  height: 50vw;
+}
+
+    .home-page-circle-3 {
+  width: 70vw;
+  height: 70vw;
+}
+}
+
